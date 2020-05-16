@@ -1,0 +1,111 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100vh;
+}
+.form{
+    width: 850px;
+    height: 80vh;
+    border: 1px solid rgb(172, 172, 172);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px 50px; 
+
+}
+.logo{
+    width: 120px;
+    height: 70px;
+}
+.form h1{
+    font-family: Arial, sans-serif;
+    font-weight: 100;
+    position: relative;
+}
+.name input{
+    width: 200px;
+    font-size: 1.25rem;
+     padding: 10px 20px;
+     margin-left: 10px;
+     border-radius: 5px;
+     border: 1px solid rgb(163, 163, 163);
+}
+.username{
+    top: 20px;
+    position: relative;
+}
+.username input{
+    width: 200px;
+    font-size: 1.25rem;
+     padding: 10px 20px;
+     margin-left: 10px;
+     border-radius: 5px;
+     border: 1px solid rgb(163, 163, 163);
+     width: 454px;
+}
+.form p{
+    position: relative;
+    left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(102, 102, 102);
+}
+.email{
+    color: rgb(0, 132, 255) !important;
+    font-size:1.25rem ;
+}
+
+
+.pass input{
+    width: 200px;
+    font-size: 1.25rem;
+     padding: 10px 20px;
+     margin-left: 10px;
+     border-radius: 5px;
+     border: 1px solid rgb(163, 163, 163);
+}
+.next button{
+    font-size: 1.25rem;
+    color: white;
+    background-color: rgb(3, 111, 253);
+    padding: 10px 10px;
+    border: none;
+    width: 130px;
+    border-radius: 5px;
+    height: 40px;
+    left: 250px;
+    position: relative;
+}
+.next{
+    display: flex;
+    align-items: center;
+    
+}
+.fa-eye{
+    color: rgb(94, 94, 94);
+    font-size: 1.5rem;
+    margin-left: 5px;
+}
+.account{
+    position: absolute;
+    top: 200px;
+    left: 810px;
+   text-align: center;
+}
+.account p{
+   font-family: Arial, sans-serif;
+   position: relative;
+   left: -2px;
+}
+input{
+    outline: none;
+}
+input:focus::placeholder {
+    color: transparent;
+}
+input:focus:required:invalid{
+    border:2px solid rgb(255, 61, 61);
+    box-shadow: 0px 0px 3px rgb(255, 61, 61);
+}
