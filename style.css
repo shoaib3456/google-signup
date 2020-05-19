@@ -105,7 +105,3 @@ input{
 input:focus::placeholder {
     color: transparent;
 }
-input:focus:required:invalid{
-    border:2px solid rgb(255, 61, 61);
-    box-shadow: 0px 0px 3px rgb(255, 61, 61);
-}
